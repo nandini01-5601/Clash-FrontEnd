@@ -1,0 +1,107 @@
+
+        body {
+
+            background-image: url(bckgnd.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        h3 {
+
+            border: 2px solid rgb(27, 27, 54);
+            width: 500px;
+            height: 510px;
+            margin-left: 300px;
+            margin-top: -200px;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 100px;
+            padding-top: 175px;
+            cursor: pointer;
+            background: linear-gradient(180deg , black , rgb(23, 23, 27) , rgb(34, 34, 44) , rgb(63, 63, 65)  );
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+        }
+        form {
+
+            color: rgb(175, 159, 159);
+            margin-top: -500px;
+            margin-left: 330px;
+            font-size: 30px;
+
+        }
+        
+        input[type=text] , input[type=password]{
+
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid rgb(19, 18, 18);
+            width: 30%;
+            padding: 12px;
+            margin-top: 15px;
+            border-radius: 15px;
+            font-size: 25px;
+            background: linear-gradient(0deg , grey , rgb(180, 178, 178) , grey);
+            color: rgb(122, 3, 3);
+            outline: none;
+            transition: width 0.1s ease-in-out;
+
+        }
+        ::placeholder {
+
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: rgb(50, 48, 56);
+
+        }
+
+        input[type=submit] {
+
+            border: none;
+            background: linear-gradient(180deg , rgb(38, 16, 39) , rgb(61, 16, 57) , rgb(73, 24, 70) , rgb(88, 41, 92));
+            color: white;
+            border-radius: 15px;
+            padding: 12px 20px;
+            outline: none;
+            width: 30%;
+            height: 50px;
+            font-size: 25px;
+            text-align: center;
+            margin-left: 0px;
+            cursor: pointer;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        img {
+
+            padding-left: 480px;
+            padding-top: 140px;
+            cursor: pointer;
+
+        }
+        label {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .col1 {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .col2 {
+            font-size: 20px;
+            margin-left: 120px;
+            
+        }
+
+        .col3 {
+            text-decoration: none;
+        }
+
+        .col3:hover {
+            color: rgb(13, 13, 61);
+        }
+
+
